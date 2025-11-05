@@ -103,7 +103,7 @@ class="btn btn-outline-secondary"
 	
 	//add
 	function render_comment(cmtBdy, seqBlgCmt, tmpPw){
-let append_val = '<p><a href="/comment/delete/{seqBlgCmt}">{cmtBdy}</a></p>'
+let append_val = '<p><a href="/comment/delete/{seqBlgCmt}" class="mt-3 mb-2">{cmtBdy}</a></p>'
 .replace("{seqBlgCmt}", seqBlgCmt).replace("{cmtBdy}",cmtBdy);
 $("#comment_list").append(append_val);
 	}
